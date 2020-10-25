@@ -1,0 +1,2 @@
+rsync -avhr --include='*/' --include='pattern*.csv' --exclude='*' --remove-source-files /sourcedir/ /targetdir/
+#consider --no-perms or mask according to manual for move to hdfs
